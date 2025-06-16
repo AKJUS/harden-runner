@@ -32,7 +32,7 @@ jobs:
           api.github.com:443
           github.com:443
 
-    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
     - name: Update the rc tag
       uses: step-security/publish-action@00f33a2a7d8b77187d08ce666d0d5d73ad1dfb93
       with:
