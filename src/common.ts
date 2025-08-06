@@ -97,23 +97,23 @@ export async function addSummary() {
   // Extract owner and repo from GITHUB_REPOSITORY (format: owner/repo)
   const [owner, repo] = process.env["GITHUB_REPOSITORY"]?.split("/") || [];
   const run_id = process.env["GITHUB_RUN_ID"];
-  
+
   if (!owner || !repo || !run_id || !correlation_id) {
     return;
   }
 
   // Fetch job summary from API
   const apiUrl = `${STEPSECURITY_API_URL}/github/${owner}/${repo}/actions/runs/${run_id}/correlation/${correlation_id}/job-markdown-summary`;
-  
+
   try {
     const response = await fetch(apiUrl);
     if (!response.ok) {
       console.error(`Failed to fetch job summary: ${response.status} ${response.statusText}`);
       return;
     }
-    
+
     const markdownSummary = await response.text();
-    
+
     // Render the markdown summary using core.summary.addRaw
     await core.summary.addRaw(markdownSummary).write();
     return;
