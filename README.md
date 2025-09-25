@@ -25,11 +25,11 @@ StepSecurity Harden-Runner addresses this gap by providing security monitoring t
 - [Harden-Runner Detected the tj-actions/changed-files compromise](https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised) ([CVE-2025-30066](https://github.com/advisories/GHSA-mrrh-fwg8-r2c3))
 - [Harden-Runner Detected a CI/CD Supply Chain Attack in Google’s Open-Source Project Flank](https://www.stepsecurity.io/case-studies/flank)
 - [Harden-Runner Detected a CI/CD Supply Chain Attack in Microsoft’s Open-Source Project Azure Karpenter Provider in Real-Time](https://www.stepsecurity.io/case-studies/azure-karpenter-provider)
-- [Harden-Runner Detected Anomalous Traffic to api.ipify.org Across Multiple Customers](https://www.stepsecurity.io/blog/harden-runner-detects-anomalous-traffic-to-api-ipify-org-across-multiple-customers)  
-- [Harden-Runner Flagged an Anomalous Outbound Call, Leading to a Docker Documentation Update](https://www.stepsecurity.io/blog/harden-runner-flags-anomalous-outbound-call-leading-to-docker-documentation-update)  
+- [Harden-Runner Detected Anomalous Traffic to api.ipify.org Across Multiple Customers](https://www.stepsecurity.io/blog/harden-runner-detects-anomalous-traffic-to-api-ipify-org-across-multiple-customers)
+- [Harden-Runner Flagged an Anomalous Outbound Call, Leading to a Docker Documentation Update](https://www.stepsecurity.io/blog/harden-runner-flags-anomalous-outbound-call-leading-to-docker-documentation-update)
 
 ### See It in Action
-Harden-Runner secures over **a million CI/CD workflow runs every week**, protecting thousands of pipelines, including those from popular open-source projects by **Microsoft, Google, and CISA**. See how top projects are using Harden-Runner and explore the insights:  
+Harden-Runner secures over **a million CI/CD workflow runs every week**, protecting thousands of pipelines, including those from popular open-source projects by **Microsoft, Google, and CISA**. See how top projects are using Harden-Runner and explore the insights:
 ➡️ [Who's using Harden-Runner?](https://docs.stepsecurity.io/whos-using-harden-runner)
 
 ## Quick Links
