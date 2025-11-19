@@ -175,5 +175,3 @@ jobs:
 
           # Stop the container
           docker stop long-running-container
-
-
